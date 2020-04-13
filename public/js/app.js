@@ -1,5 +1,3 @@
-console.log('sample javascript loaded')
-
 const weatherForecast = document.querySelector("form")
 const searchTerm = document.querySelector("input")
 const displayResults = document.querySelector("#search-result")
