@@ -61,7 +61,7 @@ app.get('/weather', (req, res)=>{
                 }
 
                 res.send({
-                    Forecast: 'It is currently '+currTemperature+' degrees at '+Location+'. Feels like temperature is '+currFeelsLike+'. There is '+currPrecip+'% chances of rain'
+                    Forecast: 'It is currently '+currTemperature+' degrees at '+Location+'. Feels like temperature is '+currFeelsLike+' degrees. There is '+currPrecip+'% chances of rain'
             })
                 // console.log('It is currently '+currTemperature+' degrees at '+Location+'. There is '+currPrecip+'% chances of rain')                        
             })                
