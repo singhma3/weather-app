@@ -26,7 +26,8 @@ const showWeather = (lat,lng,  callback)=>{
     }else{
       callback(undefined,{
         currTemperature:body.current.temperature,
-        currPrecip:body.current.precip
+        currPrecip:body.current.precip,
+        currFeelsLike: body.current.feelslike
       })
     }
   })
